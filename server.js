@@ -3,11 +3,11 @@ const app = require('./app');
 const { setupSocketIo } = require('./socket');
 const server = http.createServer(app);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 
 setupSocketIo(server);
-app.listen(port, () => {
+server.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
