@@ -8,6 +8,7 @@ require('dotenv').config();
 require('./jobs/imageQueue')
 
 const app = express();
+app.set('trust proxy', true);
 
 app.use(cors());
 

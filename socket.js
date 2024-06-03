@@ -26,10 +26,6 @@ const setupSocketIo = (server) => {
             }
         });
     });
-
-    io.listen(5000, () => {
-        console.log('Socket connected on port 5000');
-    });
 };
 
 module.exports = { setupSocketIo, users, getIo: () => io };
