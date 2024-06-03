@@ -6,7 +6,7 @@ let io;
 const setupSocketIo = (server) => {
     io = socketIo(server, {
         cors: {
-            origin: "*",
+            origin: "https://export-genius-frontend.vercel.app",
             methods: ["GET", "POST"]
         }
     });
