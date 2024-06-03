@@ -42,4 +42,6 @@ This project implements the backend functionality of a basic image upload platfo
 - The app will listen on port 4000 for both the application and Socket.IO connections. Open your browser and navigate to [http://localhost:4000] to access the backend.
 
 
+### Live :
 
+Deployed Url : https://export-genius-backend.onrender.com
